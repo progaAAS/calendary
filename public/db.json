@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": 123,
+      "name": "Петр Николаевич",
+      "login": "1",
+      "password": "1"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Петр Николаевич",
+      "phone": "+7 (999) 99-99-99",
+      "work": "ПензаМолИнвест"
+    },
+    {
+      "name": "2134",
+      "phone": "1234",
+      "work": "213",
+      "id": "BECoqrD"
+    },
+    {
+      "name": "123",
+      "phone": "213",
+      "work": "213",
+      "id": "KEWoGOL"
+    },
+    {
+      "name": "123",
+      "phone": "123",
+      "work": "213",
+      "id": "SbRwbVX"
+    },
+    {
+      "name": "123",
+      "phone": "213",
+      "work": "123",
+      "id": "M2a92k0"
+    },
+    {
+      "name": "qweqw",
+      "phone": "qweqw",
+      "work": "eqweqw",
+      "id": "yKuCgyA"
+    },
+    {
+      "name": "qweqw",
+      "phone": "qweqweq",
+      "work": "qweqweqwe",
+      "id": "DDF9AK0"
+    },
+    {
+      "name": "123",
+      "phone": "123",
+      "work": "123",
+      "id": "pFVY-ek"
+    },
+    {
+      "name": "123",
+      "phone": "123",
+      "work": "213",
+      "id": "A2kgNjV"
+    },
+    {
+      "name": "123",
+      "phone": "213",
+      "work": "213",
+      "id": "bc8_RrR"
+    },
+    {
+      "name": "21321",
+      "phone": "213",
+      "work": "21321",
+      "id": "XHUCJ91"
+    },
+    {
+      "name": "2132",
+      "phone": "21321",
+      "work": "213213",
+      "id": "vFmBwPy"
+    },
+    {
+      "name": "13213",
+      "phone": "123213",
+      "work": "213213",
+      "id": "WepT2-f"
+    }
+  ]
+}
