@@ -1,20 +1,30 @@
 import { Form, Input, Button } from "antd";
 import React, { FC } from "react"
+import { useDispatch } from "react-redux";
+import { AuthActionCreators } from "../store/reducers/auth/action-creators";
+import { rules } from "../utils/rules";
 
 const LoginForm: FC = () => {
+  const dispatch = useDispatch()
+
+  const submit = () => {
+    dispatch(AuthActionCreators.login('user', '123'))
+  }
   return (
-    <Form>
+    <Form
+      onFinish={submit}
+    >
        <Form.Item
         label="Имя пользователя"
         name="username"
-        rules={[{ required: true, message: 'Пожалуйста введите имя пользователя' }]}
+        rules={[rules.required('Пожалуйста введите имя пользователя')]}
       >
         <Input />
       </Form.Item>
       <Form.Item
         label="Пароль"
         name="password"
-        rules={[{ required: true, message: 'Пожалуйста введите пароль' }]}
+        rules={[rules.required('Пожалуйста введите пароль')]}
       >
         <Input />
       </Form.Item>
